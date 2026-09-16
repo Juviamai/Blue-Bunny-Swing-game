@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Blue Bunny Swing</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="game-wrap">
+  <canvas id="game"></canvas>
+
+  <div id="hud">
+    <div class="hud-box">💗 Score <span id="score">0</span></div>
+    <div class="hud-box">🌷 Best <span id="best">0</span></div>
+    <div class="hud-box">☁️ <span id="distance">0</span> m</div>
+  </div>
+
+  <div id="controls-hint">
+    ← → / A D : Move<br>SPACE : Jump
+  </div>
+
+  <div id="dbg" style="display:none"></div>
+  <div id="overlay">
+    <div id="overlay-card">
+      <h1 id="overlay-title">Blue Bunny Swing</h1>
+      <p id="overlay-msg">Swing from rope to rope and don't fall! 🐰</p>
+      <button id="overlay-btn">START GAME</button>
+    </div>
+  </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
